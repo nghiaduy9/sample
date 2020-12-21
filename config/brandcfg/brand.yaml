@@ -1,0 +1,32 @@
+brand_name:
+  suppliers:
+    - OneId:
+        active: true
+        brands: # list brand_name was activated in this suppliers and weigh (rate for traffic policy)
+        - VinID: 1
+        - Vinmart: 1
+        - Vinmart.com: 1
+    - Vietguys:
+        active: true
+        brands:
+        - GCafe: 1
+        - Phongvu: 2
+        - PV: 2
+        - VnShop: 2
+    - VNPay:
+        active: true
+        brands:
+        - Phongvu: 0
+        - PV: 0
+        - VnShop: 0
+  networks:
+    - name: Viettel
+      prefix: "96|97|98|197|198|162|163|164|165|166|167|168|169|185|86|32|33|34|35|36|37|38|39"
+    - name: MobiFone
+      prefix: "90|93|190|193|120|121|122|126|128|89|70|76|77|78|79"
+    - name: Vietnammobile
+      prefix: "92|188|186|192|189|59"
+    - name: GTel
+      prefix: "99|199|196"
+    - name: Sfone
+      prefix: "95"
